@@ -24,7 +24,7 @@
       }
 
       // Require the controller...
-      require_once('../app/controllers/' .$this->currentController). '.php';
+      require_once('../app/controllers/' .$this->currentController. '.php');
       // ...and instantiate it
       $this->currentController = new $this->currentController;
 
